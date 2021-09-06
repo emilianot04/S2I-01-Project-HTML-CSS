@@ -5,7 +5,6 @@
 }
 
 body {
-  height: 1200px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   color: #5d6063;
@@ -68,12 +67,40 @@ a:hover {
 }
 .parallax {
   /* The image used */
-  background-image: url("https://pixabay.com/get/gb8c9c5929b0abf9e625262d09a94271db1eb0f148ff3c9953fd00ed26fd01959ec7cbceade156cce9cdf84ad84c0a7cb_1920.jpg");
+  background-image: url("/assets/img/analytics.jpg");
 }
 .parallax-2 {
   /* The image used */
-  background-image: url("https://pixabay.com/get/gcb13a6fb504e5c1acc5e314f39945d7a5fca5ccdaa38c68b15eceb38df4ec941f4669d264e4b7b4c9c7c756dedcda463_1920.jpg");
+  background-image: url("/assets/img/businessman.jpg");
 }
 html {
-  scroll-padding-top: 20%;
+  scroll-padding-top: 17%;
+}
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+}
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
 }
