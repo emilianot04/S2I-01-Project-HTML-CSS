@@ -24,7 +24,6 @@ a:hover {
   position: fixed;
   display: flex;
   justify-content: space-between;
-
   width: 100%;
   padding: 10px 100px;
   background: #ffffff;
@@ -32,10 +31,12 @@ a:hover {
 }
 .menu {
   margin-top: 15px;
+  display: flex;
 }
 
 .menu > li {
   display: inline;
+  align-items: center;
   padding: 15px;
 }
 
@@ -53,4 +54,26 @@ a:hover {
 }
 .logo img {
   width: 80px;
+}
+.parallax,
+.parallax-2 {
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://pixabay.com/get/gb8c9c5929b0abf9e625262d09a94271db1eb0f148ff3c9953fd00ed26fd01959ec7cbceade156cce9cdf84ad84c0a7cb_1920.jpg");
+}
+.parallax-2 {
+  /* The image used */
+  background-image: url("https://pixabay.com/get/gcb13a6fb504e5c1acc5e314f39945d7a5fca5ccdaa38c68b15eceb38df4ec941f4669d264e4b7b4c9c7c756dedcda463_1920.jpg");
+}
+html {
+  scroll-padding-top: 20%;
 }
