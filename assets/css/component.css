@@ -1,14 +1,10 @@
-
-
 *,
 *:after,
 *::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 
@@ -17,22 +13,22 @@
 *********************************************************/
 
 nav a {
-	position: relative;
-	display: inline-block;
-	margin: 15px 25px;
-	outline: none;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1.35em;
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.35em;
 }
 
 nav a:hover,
 nav a:focus {
-	outline: none;
+  outline: none;
 }
 
 /* ******************************************************
@@ -40,387 +36,455 @@ nav a:focus {
 *********************************************************/
 
 #codeconSkills {
-    font-size: 20px;
-    height: auto;
-
-
+  font-size: 20px;
+  height: auto;
 }
 .codeconSkillbar {
-    width: 90%;
-    height: 50px;
-    position: relative;
-    background: rgba(17, 17, 17, .3);
-    margin: 20px auto;
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.3);
+  margin: 20px auto;
 }
 #codeconHTML {
-    width: 100%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 50px;
-    position: absolute;
-    background-color: #ea8564;
+  width: 80%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ed5f0e;
 }
 @keyframes Animate-HTML {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 80%;
+  }
 }
-to {
-    width: 100%}
-}@-webkit-keyframes Animate-HTML {
-    from {
+@-webkit-keyframes Animate-HTML {
+  from {
     width: 10px;
+  }
+  to {
+    width: 80%;
+  }
 }
-to {
-    width: 100%}
-}@-moz-keyframes Animate-HTML {
-    from {
+@-moz-keyframes Animate-HTML {
+  from {
     width: 10px;
+  }
+  to {
+    width: 80%;
+  }
 }
-to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
-    from {
+@-o-keyframes Animate-HTML {
+  from {
     width: 10px;
-}
-to {
-    width: 100%}
+  }
+  to {
+    width: 80%;
+  }
 }
 #codeconCSS {
-    animation: Animate-CSS 5s;
-    -webkit-animation: Animate-CSS 5s;
-    -moz-animation: Animate-CSS 5s;
-    -o-animation: Animate-CSS 5s;
-    width: 70%;
-    height: 50px;
-    position: absolute;
-    background-color: #55a69f;
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #2a88e0;
 }
 @keyframes Animate-CSS {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 70%;
+  }
 }
-to {
-    width: 70%}
-}@-webkit-keyframes Animate-CSS {
-    from {
+@-webkit-keyframes Animate-CSS {
+  from {
     width: 10px;
+  }
+  to {
+    width: 70%;
+  }
 }
-to {
-    width: 70%}
-}@-moz-keyframes Animate-CSS {
-    from {
+@-moz-keyframes Animate-CSS {
+  from {
     width: 10px;
+  }
+  to {
+    width: 70%;
+  }
 }
-to {
-    width: 70%}
-}@-o-keyframes Animate-CSS {
-    from {
+@-o-keyframes Animate-CSS {
+  from {
     width: 10px;
-}
-to {
-    width: 70%}
+  }
+  to {
+    width: 70%;
+  }
 }
 #codeconjQuery {
-    animation: Animate-jQuery 5s;
-    -webkit-animation: Animate-jQuery 5s;
-    -moz-animation: Animate-jQuery 5s;
-    -o-animation: Animate-jQuery 5s;
-    width: 40%;
-    height: 50px;
-    position: absolute;
-    background-color: #99856d;
+  animation: Animate-jQuery 5s;
+  -webkit-animation: Animate-jQuery 5s;
+  -moz-animation: Animate-jQuery 5s;
+  -o-animation: Animate-jQuery 5s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #99856d;
 }
 @keyframes Animate-jQuery {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-jQuery {
-    from {
+@-webkit-keyframes Animate-jQuery {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-moz-keyframes Animate-jQuery {
-    from {
+@-moz-keyframes Animate-jQuery {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-o-keyframes Animate-jQuery {
-    from {
+@-o-keyframes Animate-jQuery {
+  from {
     width: 10px;
-}
-to {
-    width: 40%}
+  }
+  to {
+    width: 40%;
+  }
 }
 #codeconJS {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    width: 65%;
-    height: 50px;
-    position: absolute;
-    background-color: #c44e45;
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 35%;
+  height: 50px;
+  position: absolute;
+  background-color: #f7df1d;
 }
 @keyframes Animate-JS {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 65%}
-}@-webkit-keyframes Animate-JS {
-    from {
+@-webkit-keyframes Animate-JS {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 65%}
-}@-moz-keyframes Animate-JS {
-    from {
+@-moz-keyframes Animate-JS {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 65%}
-}@-o-keyframes Animate-JS {
-    from {
+@-o-keyframes Animate-JS {
+  from {
     width: 10px;
-}
-to {
-    width: 65%}
+  }
+  to {
+    width: 35%;
+  }
 }
 #codeconXML {
-    animation: Animate-XML 4s;
-    -webkit-animation: Animate-XML 4s;
-    -moz-animation: Animate-XML 4s;
-    -o-animation: Animate-XML 4s;
-    width: 40%;
-    height: 50px;
-    position: absolute;
-    background-color: #5aa669;
+  animation: Animate-XML 4s;
+  -webkit-animation: Animate-XML 4s;
+  -moz-animation: Animate-XML 4s;
+  -o-animation: Animate-XML 4s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #5aa669;
 }
 @keyframes Animate-XML {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-XML {
-    from {
+@-webkit-keyframes Animate-XML {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-moz-keyframes Animate-XML {
-    from {
+@-moz-keyframes Animate-XML {
+  from {
     width: 10px;
+  }
+  to {
+    width: 40%;
+  }
 }
-to {
-    width: 40%}
-}@-o-keyframes Animate-XML {
-    from {
+@-o-keyframes Animate-XML {
+  from {
     width: 10px;
-}
-to {
-    width: 40%}
+  }
+  to {
+    width: 40%;
+  }
 }
 #codeconC {
-    animation: Animate-C 4s;
-    -webkit-animation: Animate-C 4s;
-    -moz-animation: Animate-C 4s;
-    -o-animation: Animate-C 4s;
-    width: 30%;
-    height: 50px;
-    position: absolute;
-    background-color: #970cc1;
+  animation: Animate-C 4s;
+  -webkit-animation: Animate-C 4s;
+  -moz-animation: Animate-C 4s;
+  -o-animation: Animate-C 4s;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background-color: #970cc1;
 }
 @keyframes Animate-C {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 30%;
+  }
 }
-to {
-    width: 30%}
-}@-webkit-keyframes Animate-C {
-    from {
+@-webkit-keyframes Animate-C {
+  from {
     width: 10px;
+  }
+  to {
+    width: 30%;
+  }
 }
-to {
-    width: 30%}
-}@-moz-keyframes Animate-C {
-    from {
+@-moz-keyframes Animate-C {
+  from {
     width: 10px;
+  }
+  to {
+    width: 30%;
+  }
 }
-to {
-    width: 30%}
-}@-o-keyframes Animate-C {
-    from {
+@-o-keyframes Animate-C {
+  from {
     width: 10px;
-}
-to {
-    width: 30%}
+  }
+  to {
+    width: 30%;
+  }
 }
 #codeconJAVA {
-    animation: Animate-JAVA 4s;
-    -webkit-animation: Animate-JAVA 4s;
-    -moz-animation: Animate-JAVA 4s;
-    -o-animation: Animate-JAVA 4s;
-    width: 25%;
-    height: 50px;
-    position: absolute;
-    background-color: #8e930c;
+  animation: Animate-JAVA 4s;
+  -webkit-animation: Animate-JAVA 4s;
+  -moz-animation: Animate-JAVA 4s;
+  -o-animation: Animate-JAVA 4s;
+  width: 25%;
+  height: 50px;
+  position: absolute;
+  background-color: #8e930c;
 }
 @keyframes Animate-JAVA {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 25%;
+  }
 }
-to {
-    width: 25%}
-}@-webkit-keyframes Animate-JAVA {
-    from {
+@-webkit-keyframes Animate-JAVA {
+  from {
     width: 10px;
+  }
+  to {
+    width: 25%;
+  }
 }
-to {
-    width: 25%}
-}@-moz-keyframes Animate-JAVA {
-    from {
+@-moz-keyframes Animate-JAVA {
+  from {
     width: 10px;
+  }
+  to {
+    width: 25%;
+  }
 }
-to {
-    width: 25%}
-}@-o-keyframes Animate-JAVA {
-    from {
+@-o-keyframes Animate-JAVA {
+  from {
     width: 10px;
-}
-to {
-    width: 25%}
+  }
+  to {
+    width: 25%;
+  }
 }
 #codeconPHP {
-    animation: Animate-PHP 4s;
-    -webkit-animation: Animate-PHP 4s;
-    -moz-animation: Animate-PHP 4s;
-    -o-animation: Animate-PHP 4s;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    background-color: #5A69A6;
+  animation: Animate-PHP 4s;
+  -webkit-animation: Animate-PHP 4s;
+  -moz-animation: Animate-PHP 4s;
+  -o-animation: Animate-PHP 4s;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+  background-color: #787cb4;
 }
 @keyframes Animate-PHP {
-    from {
+  from {
     width: 10px;
+  }
+  to {
+    width: 50%;
+  }
 }
-to {
-    width: 50%}
-}@-webkit-keyframes Animate-PHP {
-    from {
+@-webkit-keyframes Animate-PHP {
+  from {
     width: 10px;
+  }
+  to {
+    width: 50%;
+  }
 }
-to {
-    width: 50%}
-}@-moz-keyframes Animate-PHP {
-    from {
+@-moz-keyframes Animate-PHP {
+  from {
     width: 10px;
+  }
+  to {
+    width: 50%;
+  }
 }
-to {
-    width: 50%}
-}@-o-keyframes Animate-PHP {
-    from {
+@-o-keyframes Animate-PHP {
+  from {
     width: 10px;
-}
-to {
-    width: 50%}
+  }
+  to {
+    width: 50%;
+  }
 }
 #codeconSQL {
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    -o-animation: Animate-SQL 4s;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #23b1db;
+  animation: Animate-SQL 4s;
+  -webkit-animation: Animate-SQL 4s;
+  -moz-animation: Animate-SQL 4s;
+  -o-animation: Animate-SQL 4s;
+  width: 35%;
+  height: 50px;
+  position: absolute;
+  background-color: #23b1db;
 }
 @keyframes Animate-SQL {
-    from {
+  from {
     width: 10px;
-}
-to {
-    width: 80%}
-}@-webkit-keyframes Animate-SQL {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-moz-keyframes Animate-SQL {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}@-o-keyframes Animate-SQL {
-    from {
-    width: 10px;
-}
-to {
-    width: 80%}
-}
-#codeconVBNET {
-    animation: Animate-VBNET 4s;
-    -webkit-animation: Animate-VBNET 4s;
-    -moz-animation: Animate-VBNET 4s;
-    -o-animation: Animate-VBNET 4s;
+  }
+  to {
     width: 35%;
-    height: 50px;
-    position: absolute;
-    background-color: #f8a51e;
+  }
 }
-@keyframes Animate-VBNET {
-    from {
+@-webkit-keyframes Animate-SQL {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 35%}
-}@-webkit-keyframes Animate-VBNET {
-    from {
+@-moz-keyframes Animate-SQL {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 35%}
-}@-moz-keyframes Animate-VBNET {
-    from {
+@-o-keyframes Animate-SQL {
+  from {
     width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
-to {
-    width: 35%}
-}@-o-keyframes Animate-VBNET {
-    from {
+#codeconWP {
+  animation: Animate-WP 4s;
+  -webkit-animation: Animate-WP 4s;
+  -moz-animation: Animate-WP 4s;
+  -o-animation: Animate-WP 4s;
+  width: 75%;
+  height: 50px;
+  position: absolute;
+  background-color: #1f6f93;
+}
+@keyframes Animate-WP {
+  from {
     width: 10px;
+  }
+  to {
+    width: 75%;
+  }
 }
-to {
-    width: 35%}
+@-webkit-keyframes Animate-WP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%;
+  }
+}
+@-moz-keyframes Animate-WP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%;
+  }
+}
+@-o-keyframes Animate-WP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%;
+  }
 }
 .codeconSkillArea {
-    z-index: 1;
-    float: left;
-    //position: absolute;
-    margin-top: 15px;
-    margin-left: 15px;
-    text-shadow: none;
-    color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
+  z-index: 1;
+  float: left;
+  //position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  //font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
 }
 .PercentText {
-    z-index: 3;
-    position: relative;
-    padding-right: 15px;
-    margin-top: 15px;
-    float: right;
-    text-shadow: none;
-    color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  //font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
 }

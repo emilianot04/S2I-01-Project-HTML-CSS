@@ -1,3 +1,6 @@
+$bgcolor: #ffffff;
+$primary-color: #5d6063;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +10,14 @@
 body {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  color: #5d6063;
+  color: $primary-color;
 }
-
+a.nav-link {
+  font-size: 15px !important;
+}
 a:link,
 a:visited {
-  color: #5d6063;
+  color: $primary-color;
   text-decoration: none;
 }
 a:hover {
@@ -25,7 +30,7 @@ a:hover {
   justify-content: space-between;
   width: 100%;
   padding: 10px 100px;
-  background: #ffffff;
+  background: $bgcolor;
   z-index: 20;
 }
 .menu {
@@ -56,21 +61,16 @@ a:hover {
 }
 .parallax,
 .parallax-2 {
-  /* Set a specific height */
   min-height: 400px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .parallax {
-  /* The image used */
   background-image: url("/assets/img/analytics.jpg");
 }
 .parallax-2 {
-  /* The image used */
   background-image: url("/assets/img/businessman.jpg");
 }
 html {
@@ -90,7 +90,17 @@ html {
 .masthead .masthead-avatar {
   width: 15rem;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #d6e9fe;
+  height: 200px;
+  flex: 1;
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
