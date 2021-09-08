@@ -124,12 +124,13 @@ html {
 @media (max-width: 992px) {
   .bg-color-menu {
     background-color: $bgcolor !important;
-    height: 60px !important;
+
     a {
       color: $primary-color !important;
     }
   }
   .navbar > .container-fluid {
+    height: 400px !important;
     background-color: #ffffff !important;
   }
 }
