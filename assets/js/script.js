@@ -14,3 +14,14 @@ function scrollNavBar(menuNav) {
 }
 
 scrollNavBar("#nav");
+
+/* Funzione che chiude il menu una volta che viene cliccata la voce -Solo Mobile- */
+function clickNavBar(showDisable) {
+  var disable = document.querySelector(showDisable);
+
+  document.addEventListener("click", () => {
+    disable.classList.remove("show");
+  });
+}
+
+clickNavBar(".navbar-collapse");

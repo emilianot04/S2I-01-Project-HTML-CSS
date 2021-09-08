@@ -177,7 +177,7 @@ nav a:focus {
   -webkit-animation: Animate-JS 4s;
   -moz-animation: Animate-JS 4s;
   -o-animation: Animate-JS 4s;
-  width: 35%;
+  width: 45%;
   height: 50px;
   position: absolute;
   background-color: #f7df1d;
@@ -187,7 +187,7 @@ nav a:focus {
     width: 10px;
   }
   to {
-    width: 35%;
+    width: 45%;
   }
 }
 @-webkit-keyframes Animate-JS {
@@ -195,7 +195,7 @@ nav a:focus {
     width: 10px;
   }
   to {
-    width: 35%;
+    width: 45%;
   }
 }
 @-moz-keyframes Animate-JS {
@@ -203,7 +203,7 @@ nav a:focus {
     width: 10px;
   }
   to {
-    width: 35%;
+    width: 45%;
   }
 }
 @-o-keyframes Animate-JS {
@@ -211,7 +211,7 @@ nav a:focus {
     width: 10px;
   }
   to {
-    width: 35%;
+    width: 45%;
   }
 }
 #codeconXML {
