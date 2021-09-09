@@ -1,9 +1,8 @@
 # S2I-01-Project-HTML-CSS
 
-Portfolio personale
 Progetto realizzato per la Super Guida HTML & CSS
 
-Il sito non è il mio portfolio personale. È stato realizzato come progetto HTML & CSS e Js per start2impact.
+Il sito è il mio portfolio personale.
 
 Realizzato con
 Html
