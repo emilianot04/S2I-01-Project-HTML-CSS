@@ -12,20 +12,19 @@ html {
 }
 body {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-body;
   color: $primary-color;
 }
 .masthead {
   padding-top: 10rem;
   padding-bottom: 10rem;
+  font-family: $font-title;
 
   .masthead-heading {
-    font-family: "Bebas Neue", cursive;
     font-size: 3.5rem;
     line-height: 3.5rem;
   }
   .masthead-subheading {
-    font-family: "Bebas Neue", cursive;
     font-size: 1.25rem;
   }
 }
@@ -40,7 +39,7 @@ a.nav-link,
 .navbar-brand,
 h1,
 h2 {
-  font-family: "Bebas Neue", cursive;
+  font-family: $font-title;
 }
 a {
   text-decoration: none !important;
@@ -106,7 +105,6 @@ a.color:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -120,19 +118,20 @@ a.color:hover {
 .parallax-3 {
   background-image: url("../img/code.jpeg");
 }
+.card img {
+  width: 100%;
+  height: 225px;
+}
+.contact-image {
+  width: 100%;
+}
 .footer {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-item {
-  border: 1px solid #fff;
-  background-color: #d6e9fe;
-  height: 200px;
-  flex: 1;
-}
 .btn-outline-dark:hover {
-  color: 1px solid #fff !important;
+  color: $bgcolor !important;
   background-color: $primary-color !important;
   border-color: $primary-color !important;
 }
