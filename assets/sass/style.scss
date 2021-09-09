@@ -1,6 +1,4 @@
-$bgcolor: #ffffff;
-$primary-color: #5d6063;
-$second-color: #212529;
+@import "setting";
 @import "slide-animation";
 
 * {
@@ -8,52 +6,54 @@ $second-color: #212529;
   padding: 0;
   box-sizing: border-box;
 }
-.border-botton-grey {
-  border-bottom: 5px solid $primary-color !important;
-}
-.border-botton-black {
-  border-bottom: 3px solid $second-color !important;
-}
 html {
   scroll-padding-top: 8%;
   scroll-behavior: smooth;
 }
-.bg-color-menu {
-  background-color: $primary-color !important;
-  height: 50px;
-  a {
-    color: $bgcolor !important;
-  }
-}
-
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: $primary-color;
 }
+.masthead {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+
+  .masthead-heading {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .masthead-subheading {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.25rem;
+  }
+}
+
 section {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-a {
-  text-decoration: none !important;
-}
+
 a.nav-link,
 .navbar-brand,
 h1,
 h2 {
   font-family: "Bebas Neue", cursive;
 }
-a:link,
-a:visited {
-  color: $primary-color;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+a {
+  text-decoration: none !important;
 
+  :link,
+  :visited {
+    color: $primary-color;
+    text-decoration: none;
+  }
+  :hover {
+    text-decoration: underline;
+  }
+}
 .header {
   position: fixed;
   display: flex;
@@ -76,6 +76,20 @@ a:hover {
 
 .menu > li:last-of-type {
   margin-right: 0;
+}
+.bg-color-menu {
+  background-color: $primary-color !important;
+  height: 50px;
+  a {
+    color: $bgcolor !important;
+  }
+}
+
+.border-botton-grey {
+  border-bottom: 5px solid $primary-color !important;
+}
+.border-botton-black {
+  border-bottom: 3px solid $second-color !important;
 }
 
 .parallax,
@@ -100,21 +114,6 @@ a:hover {
 .parallax-3 {
   background-image: url("../img/code.jpeg");
 }
-
-.masthead {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-
-  .masthead-heading {
-    font-family: "Bebas Neue", cursive;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-  }
-  .masthead-subheading {
-    font-family: "Bebas Neue", cursive;
-    font-size: 1.25rem;
-  }
-}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -134,6 +133,8 @@ a:hover {
 a.color:hover {
   color: #fff !important;
 }
+
+/* Media query */
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -149,19 +150,19 @@ a.color:hover {
 }
 
 @media (max-width: 992px) {
+  html {
+    scroll-padding-top: 18%;
+    scroll-behavior: smooth;
+  }
+  .navbar > .container-fluid {
+    background-color: #ffffff !important;
+  }
   .bg-color-menu {
     background-color: $bgcolor !important;
     height: 60px !important;
     a {
       color: $primary-color !important;
     }
-  }
-  .navbar > .container-fluid {
-    background-color: #ffffff !important;
-  }
-  html {
-    scroll-padding-top: 18%;
-    scroll-behavior: smooth;
   }
   .parallax,
   .parallax-2,
