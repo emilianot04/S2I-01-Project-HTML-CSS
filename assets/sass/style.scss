@@ -54,6 +54,12 @@ a {
     text-decoration: underline;
   }
 }
+a.color {
+  color: $second-color !important;
+}
+a.color:hover {
+  color: $bgcolor !important;
+}
 .header {
   position: fixed;
   display: flex;
@@ -130,11 +136,6 @@ a {
   background-color: $primary-color !important;
   border-color: $primary-color !important;
 }
-a.color:hover {
-  color: #fff !important;
-}
-
-/* Media query */
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -154,15 +155,15 @@ a.color:hover {
     scroll-padding-top: 18%;
     scroll-behavior: smooth;
   }
-  .navbar > .container-fluid {
-    background-color: #ffffff !important;
-  }
   .bg-color-menu {
     background-color: $bgcolor !important;
     height: 60px !important;
     a {
       color: $primary-color !important;
     }
+  }
+  .navbar > .container-fluid {
+    background-color: #ffffff !important;
   }
   .parallax,
   .parallax-2,
