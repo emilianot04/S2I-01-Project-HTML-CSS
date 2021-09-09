@@ -4,14 +4,14 @@ Progetto realizzato per la Super Guida HTML & CSS
 
 Il sito è il mio portfolio personale.
 
-Realizzato con
-Html
-CSS
-Bootstrap
-JavaScript
+Realizzato con:<br>
+Html<br>
+CSS<br>
+Bootstrap<br>
+JavaScript<br>
 
-Contatti
-Emiliano Quirillo
+Contatti<br>
+Emiliano Quirillo<br>
 email: emiliano@t04.it
 
 Profilo start2impact: https://talent.start2impact.it/profile/emiliano-quirillo
