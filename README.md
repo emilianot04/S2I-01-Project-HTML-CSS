@@ -8,7 +8,7 @@ Realizzato con
 Html
 CSS
 Bootstrap
-Javascript
+JavaScript
 
 Contatti
 Emiliano Quirillo
