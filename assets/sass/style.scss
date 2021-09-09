@@ -8,15 +8,18 @@ $second-color: #212529;
   padding: 0;
   box-sizing: border-box;
 }
+.border-botton-grey {
+  border-bottom: 5px solid $primary-color !important;
+}
 .border-botton-black {
-  border-bottom: 2px solid $primary-color !important;
+  border-bottom: 3px solid $second-color !important;
 }
 html {
   scroll-padding-top: 8%;
   scroll-behavior: smooth;
 }
 .bg-color-menu {
-  background-color: $second-color !important;
+  background-color: $primary-color !important;
   height: 50px;
   a {
     color: $bgcolor !important;
@@ -33,8 +36,14 @@ section {
   height: 100%;
   overflow: hidden;
 }
-a.nav-link {
-  font-size: 15px !important;
+a {
+  text-decoration: none !important;
+}
+a.nav-link,
+.navbar-brand,
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
 }
 a:link,
 a:visited {
@@ -70,12 +79,17 @@ a:hover {
 }
 
 .parallax,
-.parallax-2 {
+.parallax-2,
+.parallax-3 {
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .parallax {
   background-image: url("../img/analytics.jpg");
@@ -83,16 +97,21 @@ a:hover {
 .parallax-2 {
   background-image: url("../img/businessman.jpg");
 }
+.parallax-3 {
+  background-image: url("../img/code.jpeg");
+}
 
 .masthead {
   padding-top: 10rem;
   padding-bottom: 10rem;
 
   .masthead-heading {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
   .masthead-subheading {
+    font-family: "Bebas Neue", cursive;
     font-size: 1.25rem;
   }
 }
@@ -106,6 +125,14 @@ a:hover {
   background-color: #d6e9fe;
   height: 200px;
   flex: 1;
+}
+.btn-outline-dark:hover {
+  color: 1px solid #fff !important;
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+a.color:hover {
+  color: #fff !important;
 }
 @media (min-width: 992px) {
   .masthead {
@@ -135,5 +162,11 @@ a:hover {
   html {
     scroll-padding-top: 18%;
     scroll-behavior: smooth;
+  }
+  .parallax,
+  .parallax-2,
+  .parallax-3 {
+    background-attachment: scroll;
+    min-height: 300px;
   }
 }

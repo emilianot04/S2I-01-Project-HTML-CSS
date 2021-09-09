@@ -25,3 +25,32 @@ function clickNavBar(showDisable) {
 }
 
 clickNavBar(".navbar-collapse");
+
+/* Funzione che genera l'invio di una mail tramite il form(aprirà il client di posta elettronica impostato sul computer */
+
+function Email() {
+  var nome = document.modulo.nome.value;
+  var oggetto = document.modulo.oggetto.value;
+  var messaggio = document.modulo.messaggio.value;
+  if (nome == "" || nome == "undefined") {
+    alert("Inserire un indirizzo nome valido.");
+    document.modulo.nome.focus();
+  } else if (oggetto == "" || oggetto == "undefined") {
+    alert("Inserire un oggetto.");
+    document.modulo.oggetto.focus();
+  } else if (messaggio == "" || messaggio == "undefined") {
+    alert("Inserire un messaggio.");
+    document.modulo.messaggio.focus();
+  } else {
+    location.href =
+      "mailto:" +
+      "emiliano@t04.it" +
+      "?Subject=" +
+      oggetto +
+      " messaggio inviato da " +
+      nome +
+      "&Body=" +
+      "Testo messaggio: " +
+      messaggio;
+  }
+}
