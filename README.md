@@ -6,7 +6,7 @@ Il sito è il mio portfolio personale.
 
 Realizzato con:<br>
 Html<br>
-CSS<br>
+CSS/SASS<br>
 Bootstrap<br>
 JavaScript<br>
 
